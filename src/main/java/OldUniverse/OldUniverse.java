@@ -4,8 +4,8 @@ package OldUniverse;
 public class OldUniverse {
     public static void main(String[] args) {
 
-        long ageOfTheUniverse = 13000000000L; // возраст Вселенной в годах
-        long ageOfHuman = 100000; // возраст человека, как вида в годах
+        final long ageOfTheUniverse = 13000000000L; // возраст Вселенной в годах
+        final long ageOfHuman = 100000; // возраст человека, как вида в годах
         long ageRatio = ageOfTheUniverse / ageOfHuman;
 
         System.out.println("Возраст Вселенной: " + ageOfTheUniverse + " лет");

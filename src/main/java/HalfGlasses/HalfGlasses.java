@@ -4,8 +4,8 @@ package HalfGlasses;
 public class HalfGlasses {
     public static void main(String[] args) {
 
-        int volume = 500; // Объем стакана в миллилитрах
-        double fillPercent = 47.0; // Процент заполненности стакана
+        final int volume = 500; // Объем стакана в миллилитрах
+        final double fillPercent = 47.0; // Процент заполненности стакана
         double fillAmount = (fillPercent / 100) * volume;
 
         System.out.println("Объем стакана: " + volume + " мл");
